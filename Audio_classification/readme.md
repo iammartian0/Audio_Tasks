@@ -9,10 +9,12 @@
 - still coundn't reach the necessary accuracy.
 - The model can be tested with Hugging face hosted inference api.
 follow the [link](https://huggingface.co/iammartian0/distilhubert-finetuned-gtzan)
+
 **Conclusion** : Found that data is not sufficient enough for model, so it is overfitting on the training data
 
 ### 2.0
 - Tried finetunig a complete new model [Whisper](https://huggingface.co/openai/whisper-base)  
 - The model can be tested with Hugging face hosted inference api.
 follow the [link](https://huggingface.co/iammartian0/whisper-base-finetuned-gtzan)
+
 **Conclusion**: Since whisper is pretrained for Automatic Speech Recognition , even the base model encoder is strong enough to generalize well with samll amount of data
