@@ -17,4 +17,4 @@ follow the [link](https://huggingface.co/iammartian0/distilhubert-finetuned-gtza
 - The model can be tested with Hugging face hosted inference api.
 follow the [link](https://huggingface.co/iammartian0/whisper-base-finetuned-gtzan)
 
-**Conclusion**: Since whisper is pretrained for Automatic Speech Recognition , even the base model encoder is strong enough to generalize well with samll amount of data
+**Conclusion**: Since whisper is pretrained for Automatic Speech Recognition , even the base model encoder is strong enough to generalize well with small amount of data
