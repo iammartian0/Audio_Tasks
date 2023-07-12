@@ -1,5 +1,7 @@
-### 1.0
+### Trail 1.0
 - Tried finetuning [DistilHuBERT]() on [Automatic Musical Genre Classification Of Audio Signals]() dataset but couldn't achieve the neccessary 87% accuracy.
+
+### Trail 1.1
 - Played with different hyper-paremeters like
   1. batch_size
   2. gradient_accumulation_steps
@@ -13,7 +15,7 @@ follow the [link](https://huggingface.co/iammartian0/distilhubert-finetuned-gtza
 **Conclusion** : Found that data is not sufficient enough for model, so it is overfitting on the training data
 
 ### 2.0
-- Tried finetunig a complete new model [Whisper](https://huggingface.co/openai/whisper-base)  
+- Tried finetuning a complete new model [Whisper](https://huggingface.co/openai/whisper-base)  on the same data.
 - The model can be tested with Hugging face hosted inference api.
 follow the [link](https://huggingface.co/iammartian0/whisper-base-finetuned-gtzan)
 
